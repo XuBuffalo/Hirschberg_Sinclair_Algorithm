@@ -1,0 +1,11 @@
+[
+    {	
+        "method": "send_msg",
+        "params": {
+            "uid" : 0,
+            "direction" :"in",
+            "hop_count" : 1
+        },
+        "returns": "sucess"
+    }
+]
