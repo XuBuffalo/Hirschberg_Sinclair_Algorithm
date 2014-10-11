@@ -23,13 +23,14 @@ using namespace std;
 
 int main(int argc, char* argv[]) 
 {
-    if (argc != 2) 
+    if (argc != 3) 
         exit (EXIT_FAILURE);
     int port = atoi(argv[1]);
+    int network_size = atoi(argv[2]);
     string port_str = to_string(port);
     string httpclient_str = "http://localhost:" + port_str;
 
-    NetworkNode network_node(port);
+    NetworkNode network_node(port,network_size);
     network_node.StartListening();
 
 

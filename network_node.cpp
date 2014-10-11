@@ -29,7 +29,7 @@ struct Message {
 class NetworkNode : public AbstractElectionMsgServer
 {
     public:
-        NetworkNode(int port);
+        NetworkNode(int port, int M);
         virtual string send_msg(const std::string& direction, const int& hop_count, const int& uid) ;
     private:
         int uid;
@@ -38,11 +38,15 @@ class NetworkNode : public AbstractElectionMsgServer
         NODE_STATUS node_status;
         int phase;
 
+        int left_uid;
+        int right_uid;
 };
 
-NetworkNode::NetworkNode(int port) :
+NetworkNode::NetworkNode(int port, int M) :
     AbstractElectionMsgServer(new HttpServer(port)),uid(0),node_status(UNKNOWN),phase(0)
 {
+    left_uid = (uid-1) > 0 ? uid-1 : M-1;
+    right_uid = (uid+1) > M-1 ? 0: uid+1;
 }
 
 

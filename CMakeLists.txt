@@ -1,0 +1,6 @@
+cmake_minimum_required (VERSION 2.6)
+project (Tutorial)
+add_executable(main main.cpp)
+target_link_libraries(main jsonrpc)
+target_link_libraries(main curl)
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11") 

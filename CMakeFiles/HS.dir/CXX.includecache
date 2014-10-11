@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/abstract_election_msg_server.h
+jsonrpc/rpc.h
+-
+
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/election_msg_client.h
+jsonrpc/rpc.h
+-
+
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/main.cpp
+jsonrpc/rpc.h
+-
+iostream
+-
+jsonrpc/connectors/httpserver.h
+-
+election_msg_client.h
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/election_msg_client.h
+network_node.h
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/network_node.h
+jsonrpc/connectors/httpclient.h
+-
+abstract_election_msg_server.h
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/abstract_election_msg_server.h
+
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/network_node.h
+jsonrpc/rpc.h
+-
+jsonrpc/connectors/httpserver.h
+-
+election_msg_client.h
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/election_msg_client.h
+jsonrpc/connectors/httpclient.h
+-
+abstract_election_msg_server.h
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/abstract_election_msg_server.h
+

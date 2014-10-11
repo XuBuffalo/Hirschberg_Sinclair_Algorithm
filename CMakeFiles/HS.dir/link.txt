@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/HS.dir/main.cpp.o  -o HS -rdynamic /home/paul/Documents/linuxwork/libjson-rpc-cpp/libjson-rpc-cpp/build/out/libjsonrpc.a -lcurl 
