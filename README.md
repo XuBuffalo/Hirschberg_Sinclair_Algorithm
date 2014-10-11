@@ -1,6 +1,6 @@
 Hirschberg_Sinclair_Algorithm  
 =============================
-(Development in progress ... )
+(Working now, optimization and cleanup in progress ... )
 
 license The MIT License (MIT)
 
