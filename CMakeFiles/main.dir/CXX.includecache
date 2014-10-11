@@ -13,6 +13,8 @@ jsonrpc/rpc.h
 /home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/election_msg_client.h
 jsonrpc/rpc.h
 -
+iostream
+-
 
 /home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/main.cpp
 cstdlib
@@ -21,30 +23,38 @@ iostream
 -
 string
 -
+unistd.h
+-
+stdio.h
+-
 jsonrpc/rpc.h
 -
 jsonrpc/connectors/httpserver.h
 -
-jsonrpc/connectors/httpclient.h
--
 abstract_election_msg_server.h
 /home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/abstract_election_msg_server.h
+jsonrpc/connectors/httpclient.h
+-
 election_msg_client.h
 /home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/election_msg_client.h
+abstract_election_msg_server.h
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/abstract_election_msg_server.h
 network_node.cpp
 /home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/network_node.cpp
 
 /home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/network_node.cpp
+cmath
+-
 jsonrpc/rpc.h
 -
 iostream
 -
+abstract_election_msg_server.h
+/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/abstract_election_msg_server.h
 jsonrpc/connectors/httpserver.h
 -
 election_msg_client.h
 /home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/election_msg_client.h
 jsonrpc/connectors/httpclient.h
 -
-abstract_election_msg_server.h
-/home/paul/Documents/linuxwork/Hirschberg_Sinclair_Algorithm/abstract_election_msg_server.h
 

@@ -4,7 +4,8 @@
         "params": {
             "uid" : 0,
             "direction" :"in",
-            "hop_count" : 1
+            "hop_count" : 1,
+            "send_id" : 0
         },
         "returns": "sucess"
     }

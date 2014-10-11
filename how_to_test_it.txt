@@ -1,0 +1,7 @@
+how to test it
+
+for exmample you have 3 nodes
+
+on node 1: ./main 34000 3 34002 34001 1
+on node 2: ./main 34001 3 34000 34002 2
+on node 3: ./main 34002 3 34001 34000 3
