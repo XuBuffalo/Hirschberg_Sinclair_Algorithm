@@ -52,15 +52,20 @@ int main(int argc, char* argv[])
     try
     {
         cout << client_left.send_msg("out",1,self_uid,self_uid) << endl;
-        cout << client_right.send_msg("out",1,self_uid,self_uid) << endl;
-    
-
     }
     catch (JsonRpcException e)
     {
         cerr << e.what() << endl;
     }
 
+    try
+    {     
+        cout << client_right.send_msg("out",1,self_uid,self_uid) << endl;
+    }
+    catch (JsonRpcException e)
+    {
+        cerr << e.what() << endl;
+    }
 
     char c;
     puts ("Enter text. Include a dot ('.') in a sentence to exit:");
